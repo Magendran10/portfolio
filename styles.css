@@ -321,3 +321,56 @@ ul li:hover {
 .view-btn:hover {
     background-color: #1e7e34;
 }
+.certificates-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px;
+    background: white;
+}
+
+.certificate {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.certificate img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.certificate h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #007BFF;
+}
+
+.cert-btn {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.cert-btn:hover {
+    background-color: #0056b3;
+}
+
+.cert-btn:last-child {
+    background-color: #28a745;
+}
+
+.cert-btn:last-child:hover {
+    background-color: #1e7e34;
+}
